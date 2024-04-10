@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: "Sacramento", cursive;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    position: relative;
+    top: 0.7em;
+    font-family: "Roboto", sans-serif;
+}
+.menubar{
+    display: flex;
+    gap: 2em;
+    position: relative;
+    top: 1em;
+    left: 1.5em;
+    width: 98%;
+
+}
+.search{
+    width: 52%;
+    display: flex;
+    position: relative;
+}
+.search input{
+    padding: 0.4em 0em;
+    width: 7.5em;
+    background-color: rgb(232, 229, 229);
+    border-radius: 0.5em;
+    border: none;
+    margin-left: 29em;
+    padding-left: 2em;
+    outline: none;
+    margin-right: 1em;
+    height: 2em;
+}
+.search i{
+    color:lightgray;
+    font-size: 1.2em;
+}
+.fa-solid{
+    position: relative;
+    left: 21.3em;
+    top: 0.5em;
+}
+.search img{
+    position: relative;
+    top: 0.1em;
+    left: 0.7em;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.fas{
+    position: relative;
+    top: 0.5em;
+    font-size: 1.5em;
+}
+button{
+   position: relative;
+   left: 2em;
+   width: 7em;
+   font-family: "Roboto", sans-serif;
+   height: 2.8em;
+   padding: 0.4em 0em;
+   border-radius: 0.5em;
+   border: none;
+   outline: none;
+   background-color: #ff3385;
+   color: white;
+}
+.email-verification{
+    /* border: 2px solid red; */
+    margin-top: 2em;
+    height: 38vh;
+}
+.email-verification > i{
+    font-size: 6em;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 6.5em;
+    top: 1.2em;
+    color: rgb(169, 166, 166);
+}
+.email-verification h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    left: 23em;
+    /* border: 2px solid red; */
+    width: 15em;
+}
+.paragraphs{
+    margin-top: 6.5em;
+    margin-left: 24em;
+    width: 60em;
+    /* border: 2px solid red; */
+}
+.paragraphs p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 0.6em;
+    color:rgb(122, 121, 121) ;
+    /* border: 2px solid red; */
+    font-size: 0.8em;
+}
+span{
+    color: #f6428d;
+    font-weight: 600;
+}
+h3{
+    font-weight: 600;
+    position: relative;
+    left: 11em;
+    top: 0.2em;
+    /* border: 2px solid red; */
+    width: 10em;
+}
+.one{
+    margin-left: 8em;
+}
+.two{
+    margin-left: 9em;
+}
+.three{
+    width: 39em;
+    text-align: center;
+    margin-left: 4em;
+}
+.four{
+    margin-left: 15em;
+}
+.footer{
+    background-color: rgb(245, 243, 243);
+    height: 51vh;
+    width: 100%;
+}
+.part1 p{
+    width: 18em;
+}
+.total-part{
+    /* border: 2px solid red; */
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+.part1{
+ width: 19em;
+}
+.total-part p{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8em;
+}
+.part1 h1{
+    font-family: "Sacramento", cursive;
+    color: #f6428d;
+    font-size: 2.5em;
+}
+.icons i{
+    padding-top: 1em;
+    padding-right: 0.3em;
+}
+.part2 p{
+    padding-top: 0.5em;
+}
+.part3 p{
+    padding-top: 0.5em;
+}
+.part4 p{
+    padding-top: 0.5em;
+}
+.part5 p{
+    padding-top: 0.5em;
+}
+.part6 p{
+    padding-top: 0.5em;
+}
+.sub{
+    padding-top: 1em;
+}
+.final-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+}
